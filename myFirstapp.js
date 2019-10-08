@@ -4,12 +4,7 @@
 // cost = ratePermile * miles + initial fare.
 
 
-// const mileage = process.argv[2];
-// const time = process.argv[3];
-//const mileage = process.argv[2];
-// const time = am;
-// const amRideMileage = amRate * '1.5';
-// const pmRideMileage = pmRate * '2';
+
 const initAm = 3.5;
 const initPm = 5;
 const amRatePerMile = 1.5;
@@ -26,9 +21,25 @@ function checkRideCost (morningCommute, eveningCommute, miles) {
     }
 }
 
-console.log(checkRideCost(true, false, 2))
+
+console.log(checkRideCost(true, false, 4))
+
+
+
+
+
+
+
+
 
 
 // take in just am to see if it works
 // user inputs distance
 //user inputs time of day 
+
+// const mileage = process.argv[2];
+// const time = process.argv[3];
+//const mileage = process.argv[2];
+// const time = am;
+// const amRideMileage = amRate * '1.5';
+// const pmRideMileage = pmRate * '2';
